@@ -7,3 +7,8 @@
 optional:
 
  - [x] Git -> https://git-scm.com/downloads
+
+
+And run:
+
+`npm install`
