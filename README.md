@@ -20,6 +20,8 @@ Clone by running: `git clone https://github.com/DerkJanSpeelman/GMLTouch-Minecra
 
 When you clone this repository, you need to copt the contents of a subdirectory and move it to you personal project folder. Otherwise, `npm run ...` commands will always return a `sh: command not found` error!
 
+![how to get started GIF](howtogetstarted.gif)
+
 Open your terminal, go to the path of the project you want get started with (i.e. _#0: Project Setup_), and run:
 
 ```sh
