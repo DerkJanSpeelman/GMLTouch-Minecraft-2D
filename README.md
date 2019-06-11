@@ -1,6 +1,6 @@
 # JavaScript Minecraft 2D
 
-In [this series](https://www.youtube.com/watch?v=khpY8sCyyt0&list=PLp9i8-l76ZCv95xSgDESyyxWT0QWRKTXJ) you will learn how to develop a cross-platform app (for web, iOs, Android, Windows and MacOS) with JavaScript, TypeScript, HTML, CSS, Nodejs, NPM and more.
+In [this series](https://www.youtube.com/watch?v=khpY8sCyyt0&list=PLp9i8-l76ZCv95xSgDESyyxWT0QWRKTXJ) you will learn how to develop a cross-platform game (for web, iOs, Android, Windows and MacOS) with JavaScript, TypeScript, HTML, CSS, Nodejs, NPM and more.
 
 ### Requirements
  - [x] Node.js -> https://nodejs.org/en/download/current/
