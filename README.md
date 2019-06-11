@@ -18,7 +18,7 @@ If you want to get started with this series, go to [the Minecraft 2D (Cross Plat
 
 Clone by running: `git clone https://github.com/DerkJanSpeelman/GMLTouch-Minecraft-2D.git`. Requires [Git](https://git-scm.com/downloads) to be installed. Or simply press the green "Clone or Download" button, download the ZIP file and extract it on your computer.
 
-When you clone this repository, you need to copt the contents of a subdirectory and move it to you personal project folder. Otherwise, `npm run ...` commands will always return a `sh: command not found` error!
+**Important:** when you clone this repository, you need to copt the contents of a subdirectory and move it to you personal project folder. Otherwise, `npm run ...` commands will always return a `sh: command not found` error!
 
 Take a look at https://www.youtube.com/watch?v=AE6pEd1Dqtc if you don't know how to do this.
 
