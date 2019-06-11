@@ -6,19 +6,15 @@ In [this series](https://www.youtube.com/watch?v=khpY8sCyyt0&list=PLp9i8-l76ZCv9
  - [x] Node.js -> https://nodejs.org/en/download/current/
  - [x] NPM (comes with Node.js)
 
- **Important:** when you clone or download this repository, the `npm run ...` commands will always return a `sh: command not found` error! You need to copy the contents of the subdirectory (i.e. _"#0: Project Setup"_) to your personal project folder! Take a look at https://www.youtube.com/watch?v=AE6pEd1Dqtc if you don't know how to do this (skip the git cloning part).
-
 ## Getting Started
 
-If you want to get started with this series, go to [the Minecraft 2D (Cross Platform) playlist](https://www.youtube.com/watch?v=khpY8sCyyt0&list=PLp9i8-l76ZCv95xSgDESyyxWT0QWRKTXJ) and follow [the first video](https://www.youtube.com/watch?v=khpY8sCyyt0).
+If you want to get started with this series, go to [the Minecraft 2D (Cross Platform) playlist](https://www.youtube.com/watch?v=khpY8sCyyt0&list=PLp9i8-l76ZCv95xSgDESyyxWT0QWRKTXJ) and follow [the first episode](https://www.youtube.com/watch?v=Q7cAEwRx-sA).
 
 ----------
 
 ### Getting the source code
 
 Clone by running: `git clone https://github.com/DerkJanSpeelman/GMLTouch-Minecraft-2D.git`. Requires [Git](https://git-scm.com/downloads) to be installed. Or simply press the green "Clone or Download" button, download the ZIP file and extract it on your computer.
-
-**Important:** when you clone this repository, you need to copy the contents of a subdirectory and move it to your personal project folder. Otherwise, the `npm run ...` commands will always return a `sh: command not found` error! Take a look at https://www.youtube.com/watch?v=AE6pEd1Dqtc if you don't know how to do this.
 
 Open your terminal, go to the path of the project you want get started with (i.e. _#0: Project Setup_), and run:
 
