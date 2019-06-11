@@ -22,6 +22,6 @@ npm install
 
 **Why TypeScript?** I really like TypeScript... It's easy to know what variables are used for what exactly, because they have types assigned with them.
 
-**Why Node, NPM, Webpack...?** I created [this repository](https://github.com/DerkJanSpeelman/webpackBoiler) (which is not yet up-to-date) so it makes developing easier for me. It has some neat features: compiling, compressing/minifying, debugging options (stylelint for example). Webpack compiles all the projects' files into a bunch of static files that can be easily imported into other compilers.
+**Why Node, NPM, Webpack...?** I created [this repository](https://github.com/DerkJanSpeelman/webpackBoiler) (which is not yet up-to-date) so it makes developing easier for me. It has some neat features: compiling, compressing/minifying, debugging options (stylelint for example). Webpack compiles all the projects' files into a bunch of static files that can be easily imported into other compilers (for i.e. iOs, Windows, MacOS, Android).
 
 Do you want your questions here? Ask it in a comment on my latest video: https://www.youtube.com/gmltouch. And mention you want your question in the git repo. If it's a good question, I'll defenitely add it.
