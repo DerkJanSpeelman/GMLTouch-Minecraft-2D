@@ -16,7 +16,7 @@ If you want to get started with this series, go to [the Minecraft 2D (Cross Plat
 
 Clone by running: `git clone https://github.com/DerkJanSpeelman/GMLTouch-Minecraft-2D.git`. Requires [Git](https://git-scm.com/downloads) to be installed. Or simply press the green "Clone or Download" button, download the ZIP file and extract it on your computer.
 
-Open your terminal, go to the path of your project, and run:
+Open your terminal, go to the path of the project you want get started with (i.e. _#0: Project Setup_), and run:
 
 ```sh
 npm install
