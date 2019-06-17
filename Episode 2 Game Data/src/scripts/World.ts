@@ -1,4 +1,5 @@
-import { GameData } from './Data/GameData';
+import { GameData } from "./Data/GameData";
+
 
 export class World {
 

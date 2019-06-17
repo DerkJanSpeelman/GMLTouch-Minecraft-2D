@@ -1,13 +1,13 @@
-import { Texture } from "pixi.js";
+import { Texture } from 'pixi.js';
 
 export class BlockData {
 
     public name: string;
     public img: Texture;
+    
+    constructor(blockData: { name: string, img: string }) {
 
-    constructor(blockData: { name: string, img: Texture }) {
-        
         this.name = blockData.name;
-        this.img = blockData.img;
+        this.img = Texture.from(blockData.img);
     }
 }

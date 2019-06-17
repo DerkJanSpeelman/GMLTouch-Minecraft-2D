@@ -1,4 +1,3 @@
-import { Texture } from 'pixi.js';
 import { BlockData } from './BlockData';
 
 import gameDataJSON from '../../data/gamedata.json';
@@ -10,26 +9,23 @@ export class GameData {
 
     public blockSize: number;
     public renderDistance: number;
-    public chunkSize: {
+    public chunkSize:  {
         width: number,
-        height: number,
+        height: number
     }
 
     constructor() {
 
-        let gameData: any = (<any>gameDataJSON),
-            blockData: any = (<any>blockDataJSON);
+        let gameData: any = (<any>gameDataJSON);
 
         this.blockSize = gameData.blockSize;
         this.renderDistance = gameData.renderDistance;
         this.chunkSize = gameData.chunkSize;
 
-        for (let key in blockData) {
+        let blockData: any = (<any>blockDataJSON);
 
-            if (blockData.hasOwnProperty(key)) {
-                blockData[key].img = Texture.from(blockData[key].img);
-                this.blocks[key] = new BlockData(blockData[key]);
-            }
+        for (let key in blockData) {
+            this.blocks[key] = new BlockData(blockData[key]);
         }
     }
 }

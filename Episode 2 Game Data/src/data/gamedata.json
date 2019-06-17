@@ -2,7 +2,7 @@
     "blockSize": 16,
     "renderDistance": 4,
     "chunkSize": {
-        "width": 25,
+        "widht": 25,
         "height": 25
     }
 }

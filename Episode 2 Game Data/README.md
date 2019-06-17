@@ -1,3 +1,3 @@
-## Minecraft 2D #0: Project Setup (JavaScript / TypeScript)
+## Minecraft 2D #1: new Game (JavaScript / TypeScript)
 
-Video tutorial: https://www.youtube.com/watch?v=khpY8sCyyt0
+Video tutorial: https://www.youtube.com/watch?v=Q7cAEwRx-sA
