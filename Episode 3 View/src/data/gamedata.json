@@ -1,0 +1,8 @@
+{
+    "blockSize": 16,
+    "renderDistance": 4,
+    "chunkSize": {
+        "widht": 25,
+        "height": 25
+    }
+}
