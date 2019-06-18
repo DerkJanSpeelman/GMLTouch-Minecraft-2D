@@ -1,3 +1,3 @@
-## Minecraft 2D #1: new Game (JavaScript / TypeScript)
+## Minecraft 2D #2: Game Data
 
-Video tutorial: https://www.youtube.com/watch?v=Q7cAEwRx-sA
+Video tutorial: https://www.youtube.com/watch?v=OIyR99l7QD4

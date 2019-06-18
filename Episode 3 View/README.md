@@ -1,3 +1,3 @@
-## Minecraft 2D #1: new Game (JavaScript / TypeScript)
+## Minecraft 2D #3: View
 
-Video tutorial: https://www.youtube.com/watch?v=Q7cAEwRx-sA
+Video tutorial: https://www.youtube.com/watch?v=DCCnksArBTs
