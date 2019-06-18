@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "commonjs",
+        "lib": ["dom", "es2018"],
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "noResolve": false,
+        "skipLibCheck": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules",
+        "!node_modules/@types",
+        "package.json",
+        "postcss.config.js",
+        "src/assets",
+        "dist",
+        "webpack.config.js"
+    ],
+    "include": [
+        "src"
+    ]
+}
