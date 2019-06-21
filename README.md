@@ -1,4 +1,4 @@
-# JavaScript Minecraft 2D
+# JavaScript Minecraft 2D (Cross-platform)
 
 In [this series](https://www.youtube.com/watch?v=khpY8sCyyt0&list=PLp9i8-l76ZCv95xSgDESyyxWT0QWRKTXJ) you will learn how to develop a cross-platform game (for web, iOs, Android, Windows and MacOS) with JavaScript, TypeScript, HTML, CSS, Nodejs, NPM and more.
 
