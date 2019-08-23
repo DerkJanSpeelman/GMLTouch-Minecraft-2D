@@ -1,0 +1,18 @@
+{
+    "dirt": {
+        "name": "Dirt",
+        "img": "src/assets/textures/blocks/dirt.png"
+    },
+    "grass_block": {
+        "name": "Grass",
+        "img": "src/assets/textures/blocks/grass_side.png"
+    },
+    "stone": {
+        "name": "Stone",
+        "img": "src/assets/textures/blocks/stone.png"
+    },
+    "bedrock": {
+        "name": "Bedrock",
+        "img": "src/assets/textures/blocks/bedrock.png"
+    }
+}
