@@ -1,14 +1,14 @@
 const webpack = require('webpack');
 const {resolve, join} = require('path');
- 
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
- 
+
 const OUTPUT_PATH = resolve(__dirname, 'dist');
- 
+
 const ENV = process.argv.find((arg) => arg.includes('NODE_ENV=production')) ? 'production' : 'development';
 const IS_DEV_SERVER = process.argv.find((arg) => arg.includes('webpack-dev-server'));
- 
+
 const devRules = [{
     test: /\.pug$/,
     use:  [
@@ -48,8 +48,14 @@ const devRules = [{
     test: /\.tsx?$/,
     exclude: /node_modules/,
     use: 'ts-loader',
+}, {
+    test: /\.(png|svg|jpg|gif)$/i,
+    loader: 'file-loader',
+    options: {
+        outputPath: 'assets',
+    }
 }];
- 
+
 const ProdRules = [{
     test: /\.js$/,
     exclude: /(node_modules)/,
@@ -72,9 +78,9 @@ const ProdRules = [{
         },
     },
 }];
- 
+
 const buildRules = ENV === 'development' ? devRules : devRules.concat(ProdRules);
- 
+
 const config = {
     mode: ENV,
     entry: './src/index.ts',
@@ -97,10 +103,10 @@ const config = {
             }
         }),
         new MiniCssExtractPlugin({
-            filename: ENV === 'production' ? '[name].min.css' : '[name].css',
+            filename: '/assets/' + ENV === 'production' ? '[name].min.css' : '[name].css',
             chunkFilename: '[id].css'
         })
     ],
 }
- 
+
 module.exports = config;

@@ -1,0 +1,527 @@
+{
+    "ocean": {
+        "id": 0,
+        "name": "Ocean",
+        "temperature": 0.5,
+        "category": "Ocean",
+        "overworld": true
+    },
+    "deep_ocean": {
+        "id": 24,
+        "name": "Deep Ocean",
+        "temperature": 0.5,
+        "category": "Ocean",
+        "overworld": true
+    },
+    "frozen_ocean": {
+        "id": 10,
+        "name": "Frozen Ocean",
+        "temperature": 0.5,
+        "category": "Ocean",
+        "overworld": true
+    },
+    "deep_frozen_ocean": {
+        "id": 50,
+        "name": "Deep Frozen Ocean",
+        "temperature": 0.5,
+        "category": "Ocean",
+        "overworld": true
+    },
+    "cold_ocean": {
+        "id": 46,
+        "name": "Cold Ocean",
+        "temperature": 0.5,
+        "category": "Ocean",
+        "overworld": true
+    },
+    "deep_cold_ocean": {
+        "id": 49,
+        "name": "Deep Cold Ocean",
+        "temperature": 0.5,
+        "category": "Ocean",
+        "overworld": true
+    },
+    "lukewarm_ocean": {
+        "id": 45,
+        "name": "Lukewarm Ocean",
+        "temperature": 0.5,
+        "category": "Ocean",
+        "overworld": true
+    },
+    "deep_lukewarm_ocean": {
+        "id": 48,
+        "name": "Deep Lukewarm Ocean",
+        "temperature": 0.5,
+        "category": "Ocean",
+        "overworld": true
+    },
+    "warm_ocean": {
+        "id": 44,
+        "name": "Warm Ocean",
+        "temperature": 0.5,
+        "category": "Ocean",
+        "overworld": true
+    },
+    "deep_warm_ocean": {
+        "id": 47,
+        "name": "Deep Warm Ocean",
+        "temperature": 0.5,
+        "category": "Unused",
+        "overworld": true
+    },
+    "river": {
+        "id": 7,
+        "name": "River",
+        "temperature": 1,
+        "category": "Lush",
+        "overworld": true
+    },
+    "frozen_river": {
+        "id": 11,
+        "name": "Frozen River",
+        "temperature": 0.5,
+        "category": "Snowy",
+        "overworld": true
+    },
+    "beach": {
+        "id": 16,
+        "name": "Beach",
+        "temperature": 0.8,
+        "category": "Lush",
+        "overworld": true
+    },
+    "stone_shore": {
+        "id": 25,
+        "name": "Stone Shore",
+        "temperature": 0.2,
+        "category": "Cold",
+        "overworld": true
+    },
+    "snowy_beach": {
+        "id": 26,
+        "name": "Snowy Beach",
+        "temperature": 0.05,
+        "category": "Snowy",
+        "overworld": true
+    },
+    "forest": {
+        "id": 4,
+        "name": "Forest",
+        "temperature": 0.7,
+        "category": "Lush",
+        "overworld": true
+    },
+    "wooded_hills": {
+        "id": 18,
+        "name": "Wooded Hills",
+        "temperature": 0.7,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "flower_forest": {
+        "id": 132,
+        "name": "Flower Forest",
+        "temperature": 0.7,
+        "category": "Lush",
+        "overworld": true
+    },
+    "birch_forest": {
+        "id": 27,
+        "name": "Birch Forest",
+        "temperature": 0.6,
+        "category": "Lush",
+        "overworld": true
+    },
+    "birch_forest_hills": {
+        "id": 28,
+        "name": "Birch Forest Hills",
+        "temperature": 0.6,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "tall_birch_forest": {
+        "id": 155,
+        "name": "Tall Birch Forest",
+        "temperature": 0.7,
+        "category": "Lush",
+        "overworld": true
+    },
+    "tall_birch_hills": {
+        "id": 156,
+        "name": "Tall Birch Hills",
+        "temperature": 0.7,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "dark_forest": {
+        "id": 29,
+        "name": "Dark Forest",
+        "temperature": 0.7,
+        "category": "Lush",
+        "overworld": true
+    },
+    "dark_forest_hills": {
+        "id": 157,
+        "name": "Dark Forest Hills",
+        "temperature": 0.7,
+        "category": "Lush",
+        "overworld": true
+    },
+    "jungle": {
+        "id": 21,
+        "name": "Jungle",
+        "temperature": 0.95,
+        "category": "Lush",
+        "overworld": true
+    },
+    "jungle_hills": {
+        "id": 22,
+        "name": "Jungle Hills",
+        "temperature": 0.95,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "modified_jungle": {
+        "id": 149,
+        "name": "Modified Jungle",
+        "temperature": 0.95,
+        "category": "Lush",
+        "overworld": true
+    },
+    "jungle_edge": {
+        "id": 23,
+        "name": "Jungle Edge",
+        "temperature": 0.95,
+        "category": "Lush",
+        "overworld": true
+    },
+    "modified_jungle_edge": {
+        "id": 151,
+        "name": "Modified Jungle Edge",
+        "temperature": 0.95,
+        "category": "Lush",
+        "overworld": true
+    },
+    "bamboo_jungle": {
+        "id": 168,
+        "name": "Bamboo Jungle",
+        "temperature": 0.95,
+        "category": "Lush",
+        "overworld": true
+    },
+    "bamboo_jungle_hills": {
+        "id": 169,
+        "name": "Bamboo Jungle Hills",
+        "temperature": 0.95,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "taiga": {
+        "id": 5,
+        "name": "Taiga",
+        "temperature": 0.25,
+        "category": "Cold",
+        "overworld": true
+    },
+    "taiga_hills": {
+        "id": 19,
+        "name": "Taiga Hills",
+        "temperature": 0.25,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "taiga_mountains": {
+        "id": 133,
+        "name": "Taiga Mountains",
+        "temperature": 0.25,
+        "category": "Cold",
+        "overworld": true
+    },
+    "snowy_taiga": {
+        "id": 30,
+        "name": "Snowy Taiga",
+        "temperature": -0.5,
+        "category": "Snowy",
+        "overworld": true
+    },
+    "snowy_taiga_hills": {
+        "id": 31,
+        "name": "Snowy Taiga Hills",
+        "temperature": -0.5,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "snowy_taiga_mountains": {
+        "id": 158,
+        "name": "Snowy Taiga Mountains",
+        "temperature": -0.5,
+        "category": "Snowy",
+        "overworld": true
+    },
+    "giant_tree_taiga": {
+        "id": 32,
+        "name": "Giant Tree Taiga",
+        "temperature": 0.3,
+        "category": "Cold",
+        "overworld": true
+    },
+    "giant_tree_taiga_hills": {
+        "id": 33,
+        "name": "Giant Tree Taiga Hills",
+        "temperature": 0.3,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "giant_spruce_taiga": {
+        "id": 160,
+        "name": "Giant Spruce Taiga",
+        "temperature": 0.25,
+        "category": "Cold",
+        "overworld": true
+    },
+    "giant_spruce_taiga_hills": {
+        "id": 161,
+        "name": "Giant Spruce Taiga Hills",
+        "temperature": 0.3,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "mushroom_fields": {
+        "id": 14,
+        "name": "Mushroom Fields",
+        "temperature": 0.9,
+        "category": "Lush",
+        "overworld": true
+    },
+    "mushroom_field_shore": {
+        "id": 15,
+        "name": "Mushroom Field Shore",
+        "temperature": 0.9,
+        "category": "Lush",
+        "overworld": true
+    },
+    "swamp": {
+        "id": 6,
+        "name": "Swamp",
+        "temperature": 0.8,
+        "category": "Lush",
+        "overworld": true
+    },
+    "swamp_hills": {
+        "id": 134,
+        "name": "Swamp Hills",
+        "temperature": 0.8,
+        "category": "Lush",
+        "overworld": true
+    },
+    "savanna": {
+        "id": 35,
+        "name": "Savanna",
+        "temperature": 1.2,
+        "category": "Dry",
+        "overworld": true
+    },
+    "savanna_plateau": {
+        "id": 36,
+        "name": "Savanna Plateau",
+        "temperature": 1,
+        "category": "Dry",
+        "overworld": true
+    },
+    "shattered_savanna": {
+        "id": 163,
+        "name": "Shattered Savanna",
+        "temperature": 1.1,
+        "category": "Dry",
+        "overworld": true
+    },
+    "shattered_savanna_plateau": {
+        "id": 164,
+        "name": "Shattered Savanna Plateau",
+        "temperature": 1,
+        "category": "Dry",
+        "overworld": true
+    },
+    "plains": {
+        "id": 1,
+        "name": "Plains",
+        "temperature": 0.8,
+        "category": "Lush",
+        "overworld": true
+    },
+    "sunflower_plains": {
+        "id": 129,
+        "name": "Sunflower Plains",
+        "temperature": 0.8,
+        "category": "Lush",
+        "overworld": true
+    },
+    "desert": {
+        "id": 2,
+        "name": "Desert",
+        "temperature": 2,
+        "category": "Dry",
+        "overworld": true
+    },
+    "desert_hills": {
+        "id": 17,
+        "name": "Desert Hills",
+        "temperature": 2,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "desert_lakes": {
+        "id": 130,
+        "name": "Desert Lakes",
+        "temperature": 2,
+        "category": "Dry",
+        "overworld": true
+    },
+    "snowy_tundra": {
+        "id": 12,
+        "name": "Snowy Tundra",
+        "temperature": 0,
+        "category": "Snowy",
+        "overworld": true
+    },
+    "snowy_mountains": {
+        "id": 13,
+        "name": "Snowy Mountains",
+        "temperature": 0,
+        "category": "Neutral",
+        "overworld": true
+    },
+    "ice_spikes": {
+        "id": 140,
+        "name": "Ice Spikes",
+        "temperature": 0,
+        "category": "Snowy",
+        "overworld": true
+    },
+    "mountains": {
+        "id": 3,
+        "name": "Mountains",
+        "temperature": 0.2,
+        "category": "Cold",
+        "overworld": true
+    },
+    "wooded_mountains": {
+        "id": 34,
+        "name": "Wooded Mountains",
+        "temperature": 0.2,
+        "category": "Cold",
+        "overworld": true
+    },
+    "gravelly_mountains": {
+        "id": 131,
+        "name": "Gravelly Mountains",
+        "temperature": 0.2,
+        "category": "Cold",
+        "overworld": true
+    },
+    "modified_gravelly_mountains": {
+        "id": 162,
+        "name": "Gravelly Mountains+",
+        "temperature": 0.2,
+        "category": "Cold",
+        "overworld": true
+    },
+    "mountain_edge": {
+        "id": 20,
+        "name": "Mountain Edge",
+        "temperature": 0.2,
+        "category": "Unused",
+        "overworld": true
+    },
+    "badlands": {
+        "id": 37,
+        "name": "Badlands",
+        "temperature": 2,
+        "category": "Dry",
+        "overworld": true
+    },
+    "badlands_plateau": {
+        "id": 39,
+        "name": "Badlands Plateau",
+        "temperature": 2,
+        "category": "Dry",
+        "overworld": true
+    },
+    "modified_badlands_plateau": {
+        "id": 167,
+        "name": "Modified Badlands Plateau",
+        "temperature": 2,
+        "category": "Dry",
+        "overworld": true
+    },
+    "wooded_badlands_plateau": {
+        "id": 38,
+        "name": "Wooded Badlands Plateau",
+        "temperature": 2,
+        "category": "Dry",
+        "overworld": true
+    },
+    "modified_wooded_badlands_plateau": {
+        "id": 166,
+        "name": "Modified Wooded Badlands Plateau",
+        "temperature": 2,
+        "category": "Dry",
+        "overworld": true
+    },
+    "eroded_badlands": {
+        "id": 165,
+        "name": "Eroded Badlands",
+        "temperature": 2,
+        "category": "Dry",
+        "overworld": true
+    },
+    "nether": {
+        "id": 8,
+        "name": "Nether",
+        "temperature": 2,
+        "category": "Dry",
+        "overworld": false
+    },
+    "the_end": {
+        "id": 9,
+        "name": "The End",
+        "temperature": 0.5,
+        "category": "The End",
+        "overworld": false
+    },
+    "small_end_islands": {
+        "id": 40,
+        "name": "Small End Islands",
+        "temperature": 0.5,
+        "category": "The End",
+        "overworld": false
+    },
+    "end_midlands": {
+        "id": 41,
+        "name": "End Midlands",
+        "temperature": 0.5,
+        "category": "The End",
+        "overworld": false
+    },
+    "end_highlands": {
+        "id": 42,
+        "name": "End Highlands",
+        "temperature": 0.5,
+        "category": "The End",
+        "overworld": false
+    },
+    "end_barrens": {
+        "id": 43,
+        "name": "End Barrens",
+        "temperature": 0.5,
+        "category": "The End",
+        "overworld": false
+    },
+    "the_void": {
+        "id": 127,
+        "name": "The Void",
+        "temperature": 0.5,
+        "category": "Neutral",
+        "overworld": null
+    }
+}

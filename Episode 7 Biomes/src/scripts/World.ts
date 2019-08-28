@@ -35,7 +35,7 @@ export class World {
 
         window.onkeydown = this.onKeyDown;
         window.onkeyup = this.onKeyUp;
-        
+
         this.app.ticker.add(this.update);
     }
 
@@ -48,10 +48,10 @@ export class World {
 
         for (let x = playerChunkX - renderDist; x < playerChunkX + renderDist; x++) {
             for (let y = playerChunkY - renderDist; y < playerChunkY + renderDist; y++) {
-                
+
                 if (this.chunkMap[x + ',' + y] === undefined) {
 
-                    const chunk: Chunk = new Chunk(data, this.prng, x, y);
+                    const chunk: Chunk = new Chunk(this, this.prng, x, y);
                     this.chunkMap[x + ',' + y] = chunk;
 
                     for (const key in chunk.blockMap) {
@@ -69,10 +69,10 @@ export class World {
             if (this.chunkMap.hasOwnProperty(key)) {
 
                 const chunk: Chunk = this.chunkMap[key];
-                
+
                 if (chunk.x < playerChunkX - renderDist || chunk.x > playerChunkX + renderDist
                 || chunk.y < playerChunkY - renderDist || chunk.y > playerChunkY + renderDist) {
-                    
+
                     chunk.delete();
                     delete this.chunkMap[key];
                 }
@@ -86,12 +86,12 @@ export class World {
             if (this.chunkMap.hasOwnProperty(c)) {
 
                 const chunk: Chunk = this.chunkMap[c];
-                
+
                 for (const b in chunk.blockMap) {
                     if (chunk.blockMap.hasOwnProperty(b)) {
 
                         const block: Block = chunk.blockMap[b];
-                        
+
                         block.sprite.x = (block.x * this.gameData.blockSize) - this.view.x;
                         block.sprite.y = (block.y * this.gameData.blockSize * -1) - this.view.y;
                     }
@@ -135,7 +135,7 @@ export class World {
     }
 
     private resize = (): void => {
-        
+
         this.view.width = this.app.view.width;
         this.view.height = this.app.view.height;
     }
