@@ -1,3 +1,12 @@
+/**
+ * 
+ * A non-binary JavaScript version of Lehmer's random number generator (1998)
+ * with extra possibilities for shifting the seed for "more randomness"
+ * and getting a random number between two points.
+ * 
+ * https://en.wikipedia.org/wiki/Lehmer_random_number_generator
+ * 
+ */
 export class PRNG {
 
     public seed: number;
@@ -42,17 +51,27 @@ export class PRNG {
         this.shift();
     }
 
-    public calc = (n: number): number => {
+    public readonly calc: ((
+        n: number
+    ) => number) = (
+        n: number
+    ): number => {
 
         return Math.round(n * this.m - 1);
     }
 
-    public shift = (): void => {
+    public readonly shift: (() => void) = (): void => {
 
         this.seed = this.seed * this.a % this.m;
     }
 
-    public next = (minOrMax?: number, max?: number): number => {
+    public readonly next: ((
+        minOrMax?: number,
+        max?: number
+    ) => number ) = (
+        minOrMax?: number,
+        max?: number
+    ): number => {
 
         this.shift();
 
