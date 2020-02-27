@@ -22,7 +22,7 @@ export class PRNG {
     /**
      * Creates a PRNG instance
      * 
-     * @param {number | string} seed
+     * @param {number | string | undefined} seed
      */
     constructor(seed?: number | string) {
         this.m = 2147483647;
@@ -85,8 +85,8 @@ export class PRNG {
      * 
      * @public
      * @readonly
-     * @param {number|undefined} minOrMax
-     * @returns {number|undefined}
+     * @param {number | undefined} minOrMax
+     * @returns {number | undefined}
      */
     public readonly next: ((
         minOrMax?: number,
