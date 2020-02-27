@@ -5,6 +5,8 @@ In [this series](https://www.youtube.com/watch?v=khpY8sCyyt0&list=PLp9i8-l76ZCv9
 ### Requirements
  - [x] Node.js -> https://nodejs.org/en/download/current/
  - [x] NPM (comes with Node.js)
+ 
+![image](https://www.derkjanspeelman.nl/images/mockups/minecraft2d.png)
 
 ## Getting Started
 
