@@ -16,13 +16,13 @@ export class Noise {
 
         if (scale <= 0) scale = 0.001;
 
-        for (let x = 0; x < width; x++) {
+        for (let x: number = 0; x < width; x++) {
             
             let height: number = 0,
                 frequency: number = 1,
                 amplitude: number = 1;
             
-            for (let i = 0; i < octaves; i++) {
+            for (let i: number = 0; i < octaves; i++) {
 
                 const X: number = (x + offset) / scale * frequency;
                 
